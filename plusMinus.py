@@ -4,9 +4,9 @@ def plusMinus(arr):
     posNumberAve = len([ i for i in arr if i >0]) / numElements
     negNumberAve = len([i for i in arr if i < 0]) / numElements
     zeroNumberAve = len([i for i in arr if i ==0])  / numElements
-    print(posNumber)
-    print(negNumber)
-    print(zeroNumber)
+    print(posNumberAve)
+    print(negNumberAve)
+    print(zeroNumberAve)
     print(numElements)
 
 plusMinus([1,2,3, -5, -6, 0, 0])
