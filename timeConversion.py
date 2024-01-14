@@ -4,8 +4,12 @@ def timeConversion(s):
     if clocksystem == 'PM':
         clock24 = int(s[:2]) + 12 
         clock245 = str(clock24) + s[2:-2]
-        print(clock24, clock245)
-    print(clocksystem)
+        print(clock245)
+    elif clocksystem == 'AM':
+        clock12 = int(s[:2]) - 12
+        clock124 = str(clock12) + s[2:-2]
+        print(clock124)
+
     #if s[-1]
 
 timeConversion("07:05:45PM")
