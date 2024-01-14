@@ -1,9 +1,10 @@
 import random
 import math
 def miniMaxSum(arr):
+    sorted_arr = sorted(arr)
     four_num = random.sample(arr,4)
-    min_sum = math.min(sum(four_num))
-    print(min_sum)
-    print(four_num)
+    min_sum = sum(four_num)
+   
+    print(sorted_arr)
 
-miniMaxSum([1,3,5,7,9])
+miniMaxSum([1,5,7,9,3])
