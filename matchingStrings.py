@@ -1,6 +1,10 @@
+from collections import Counter
 def matchingStrings(strings,queries):
+    counts  ={}
     for i in strings:
-        for j in queries:
-            if strings[i] == queries[j]:
-                print(strings[i])
-matchingStrings(['ab','ab','abs'],['ab','abc','bc'])
+        if i in  queries:
+            counts[i] += 1
+        else:
+            print(counts =0)
+           
+matchingStrings(['ab','ab','abc'],['ab','abc','bc'])
