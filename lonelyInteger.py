@@ -2,7 +2,7 @@ def lonelyInteger(a):
     for i in a:
         n = a.count(i)
         if n == 1:
-            print(a[i])
+            print(i)
       
 
     
