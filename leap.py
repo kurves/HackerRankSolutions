@@ -4,12 +4,12 @@ def leap(year):
     div_100 = year/ 100 == 0
     div_400 = year /400 ==0 
     
-    if div_4 and not div_100 and div_400:
+    if div_4  and div_400:
         print("t")
-        return True
-    else:
+     
+    elif div_4 and div_100:
         print("f")
-        return False
     
-leap(2000)
+    
+leap(1990)
 
