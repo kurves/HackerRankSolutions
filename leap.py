@@ -7,8 +7,7 @@ def leap(year):
     if div_4  and div_400 and not div_100:
         print("t")
      
-    elif div_4 and div_100:
-        print("f")
+    
     else:
         print("f")
     
