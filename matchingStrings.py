@@ -1,9 +1,6 @@
 def matchingStrings(strings,queries):
-    counts  ={}
-    for i in queries:
-        if i in strings:
-            c = strings.count(i)
-            print(c)
+    listResults = [strings.count(x) for x in queries]
+    print(listResults)
        
     
        
