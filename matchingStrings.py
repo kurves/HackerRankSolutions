@@ -10,9 +10,9 @@ def matchingStrings(strings,queries):
 
     for query in queries:
         if query in matchingMap:
-            matchingMap[query] += 1
+            results.append(matchingMap[query])
         else:
-            matchingMap[string] = 1
+            results.append(0)
     
        
            
