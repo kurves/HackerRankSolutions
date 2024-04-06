@@ -13,6 +13,8 @@ def matchingStrings(strings,queries):
             results.append(matchingMap[query])
         else:
             results.append(0)
+
+    return results
     
        
            
