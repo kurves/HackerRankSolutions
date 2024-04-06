@@ -1,7 +1,11 @@
 def matchingStrings(strings,queries):
-    listResults = [strings.count(x) for x in queries]
-    print()
-       
+    matchingMap ={}
+
+    for string in strings:
+        if string in matchingMap:
+            matchingMap[string] += 1
+        else:
+            matchingMap[string] = 1
     
        
            
