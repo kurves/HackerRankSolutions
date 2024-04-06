@@ -6,6 +6,13 @@ def matchingStrings(strings,queries):
             matchingMap[string] += 1
         else:
             matchingMap[string] = 1
+    results =[]
+
+    for query in queries:
+        if query in matchingMap:
+            matchingMap[query] += 1
+        else:
+            matchingMap[string] = 1
     
        
            
