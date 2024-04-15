@@ -7,8 +7,10 @@ def pangrams(s):
         
         print(chr(i))
 
-    for j in new_s:
-        print(j)
+        for j in new_s:
+            print(j)
+            if i == j:
+                print('true')
        
       
 
