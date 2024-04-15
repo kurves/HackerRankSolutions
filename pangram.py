@@ -5,7 +5,7 @@ def pangrams(s):
 
     for i in range(ord('a'), ord('z')):
         print(chr(i))
-        if new_s.contains(i):
+        if i in new_s:
             print('true')
       
 
