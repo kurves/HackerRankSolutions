@@ -4,9 +4,12 @@ def pangrams(s):
     print(new_s)
 
     for i in range(ord('a'), ord('z')):
+        
         print(chr(i))
-        if i in new_s:
-            print('true')
+
+    for j in new_s:
+        print(j)
+       
       
 
 
