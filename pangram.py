@@ -1,7 +1,7 @@
 def pangrams(s):
     # pangram string that contains every letter of the alphabet
     new_s = ''.join(s.lower().split())
-    print(new_s)
+    char = set(s)
 
     for i in range(ord('a'), ord('z') + 1):
         for j in new_s:
