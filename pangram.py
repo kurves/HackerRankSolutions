@@ -4,11 +4,7 @@ def pangrams(s):
     print(new_s)
 
     for i in range(ord('a'), ord('z') + 1):
-        
-        print(chr(i))
-
         for j in new_s:
-            print(j)
             if chr(i) == j:
                 print('true')
        
