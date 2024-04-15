@@ -3,10 +3,11 @@ def pangrams(s):
     new_s = ''.join(s.lower().split())
     char = set(s)
 
-    for i in range(ord('a'), ord('z') + 1):
-        for j in new_s:
-            if chr(i) == j:
-                print('true')
+    if  len(char) == 26:
+        print('pangram')
+    else:
+        print('not pangram ')
+       
        
       
 
