@@ -3,7 +3,7 @@ def pangrams(s):
     new_s = ''.join(s.lower().split())
     print(new_s)
 
-    for i in range(ord('a'), ord('z')):
+    for i in range(ord('a'), ord('z') + 1):
         
         print(chr(i))
 
