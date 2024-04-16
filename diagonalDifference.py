@@ -3,3 +3,6 @@ def diagonalDifference(arr):
 
     left_diagonal_sum =0
     right_diagonal_sum =0
+
+    for i in range(len(arr)):
+        left_diagonal_sum += arr[i][i]
