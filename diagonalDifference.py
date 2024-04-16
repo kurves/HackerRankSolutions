@@ -10,3 +10,5 @@ def diagonalDifference(arr):
         right_diagonal_sum += arr[i][len(arr) - i - 1]
 
         diagonal_difference = abs(left_diagonal_sum - right_diagonal_sum)
+
+        return diagonal_difference
